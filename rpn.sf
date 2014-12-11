@@ -1,0 +1,92 @@
+snowball stack:
+
+    form
+    
+    assign(a, array(0));
+    assign(a, tail(a));
+
+    snowflake push(item):
+        form
+            append(a, item);
+        freeze
+
+    snowflake pop():
+        form
+            assign(tmp, getItem(a, subtract(len(a), 1))); 
+            deleteItem(subtract(len(a), 1)); 
+            tmp; 
+        freeze
+    
+    snowflake peek():
+        form
+            assign(l, len(a));
+            getItem(a, subtract(len(a), 1));
+        freeze
+  
+    snowflake printStack():
+        form
+            printArray(a); 
+        freeze
+
+    snowflake size(): 
+        form 
+            size(a); 
+        freeze
+
+   flurry;
+
+   freeze
+
+
+assign(s, stack());
+snowflake rpn(s):
+    form  
+    assign(in, input("Enter a number or operation")); 
+    if(eq(in, "end")):
+        form
+        crystalize("Result is", s*pop());
+        freeze
+    elif(eq(in, "+")):
+        form
+            assign(a, s*pop());
+            assign(b, s*pop());
+            s*push(add(a,b));
+        freeze
+    elif(eq(in, "-")):
+        form
+            assign(a, s*pop());
+            assign(b, s*pop());
+            s*push(subtract(a,b));
+        freeze
+    elif(eq(in, "/")):
+        form
+            assign(a, s*pop());
+            assign(b, s*pop());
+            s*push(div(a,b));
+        freeze
+    elif(eq(in, "%")):
+        form
+            assign(a, s*pop());
+            assign(b, s*pop());
+            s*push(mod(a,b));
+        freeze
+    elif(eq(in, "*")):
+        form
+            assign(a, s*pop());
+            assign(b, s*pop());
+            s*push(mul(a,b));
+        freeze
+    elif(eq(in, "^")):
+        form
+            assign(a, s*pop());
+            assign(b, s*pop());
+            s*push(pow(a,b));
+        freeze
+    else:
+        form
+            s*push(int(in)); 
+        freeze
+    rpn(s); 
+    freeze
+
+rpn(s); 

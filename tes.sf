@@ -1,0 +1,2 @@
+assign(h, input("hello: ")); 
+crystalize(h); 

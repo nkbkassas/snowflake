@@ -1,0 +1,11 @@
+assign(x,10);
+snowflake test(!x):
+    form
+    if(eq(mod(x,2),2)):
+        form
+        crystalize("even");
+        freeze
+    freeze
+
+
+

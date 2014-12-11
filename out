@@ -1,0 +1,127 @@
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+10 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+1 INTEGER
+0 INTEGER
+10 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+1 INTEGER
+1 INTEGER
+9 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+2 INTEGER
+1 INTEGER
+8 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+3 INTEGER
+2 INTEGER
+7 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+5 INTEGER
+3 INTEGER
+6 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+8 INTEGER
+5 INTEGER
+5 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+13 INTEGER
+8 INTEGER
+4 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+21 INTEGER
+13 INTEGER
+3 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+34 INTEGER
+21 INTEGER
+2 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+55 INTEGER
+34 INTEGER
+1 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+Lexeme:, expr_list tree.right.right
+--------------------------------------------------------------------------
+Args are: 
+
+89 INTEGER
+55 INTEGER
+0 INTEGER
+--------------------------------------------------------------------------
+Lexeme:, expr_list tree.right.right
+55 

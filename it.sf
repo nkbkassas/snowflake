@@ -1,0 +1,21 @@
+snowflake fib( n):
+    form
+    fibiter(1, 0, n);
+    freeze
+
+
+snowflake fibiter( a, b, count):
+    form
+    if( lte( count, 0)):
+        form
+        b;
+        freeze
+    else:
+        form
+        fibiter(add(a, b), a, subtract(count, 1));
+        freeze
+    freeze
+
+
+
+crystalize(fib(10));

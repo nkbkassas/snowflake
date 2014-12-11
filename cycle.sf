@@ -1,0 +1,8 @@
+assign(x,1);
+cycle(AND(lt(x,10), noteq(x,8))):
+    form
+    crystalize(x);
+    assign(x,add(x,1));
+    crystalize(x);
+    freeze
+    

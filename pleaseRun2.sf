@@ -1,0 +1,58 @@
+snowball stack:
+    form 
+        assign(b, array(0)); 
+        assign(b, tail(b)); 
+        snowflake getInput():
+            form
+            assign(a, input("h")); 
+            a; 
+            freeze
+        snowflake pop():
+        form 
+            crystalize("pop rocks");
+        freeze
+
+        snowflake push():
+        form
+            "push";
+        freeze
+        snowflake f(a):
+            form 
+                append(b, a); 
+            freeze
+        snowflake length():
+            form
+            crystalize("len", size(b));
+            freeze
+    flurry;
+    freeze
+
+assign(s, stack());
+snowflake test():
+   form
+   snowflake get():
+        form
+        s*getInput(); 
+        freeze
+    snowflake helper(n):
+        form
+        crystalize(n); 
+            if(eq(n, "exit")):
+                form
+                    s*length();
+                freeze
+            else:   
+                form
+                    s*f(n); 
+                freeze
+        freeze
+   helper(get()); 
+   freeze
+
+
+test(); 
+
+snowflake te(a): 
+    form
+    add(a, 5); 
+    freeze
