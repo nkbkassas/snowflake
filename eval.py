@@ -83,8 +83,6 @@ class Eval:
             return self.eval_elif(tree, env)
         elif tree.tokenType == "else":
             return self.eval_else(tree, env)
-        elif tree.tokenType == "cycle":
-            return sellf.eval_cycle(tree, env)
         elif tree.tokenType == "funcCall":
             return self.eval_funcCall(tree, env)
         elif tree.tokenType == "expr_list":

@@ -35,7 +35,7 @@ class Environment:
             print("Error. Variable:", name, "does not exist.")
 
     def extendEnvironment(self, toAdd=None):
-        #print("Extending the evnironment with", str(toAdd))
+        print("Extending the evnironment with", str(toAdd))
         return Environment(self,toAdd)
 
     def printEnvironment(self):
